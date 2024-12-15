@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#E5E5E5</color>
+    <color name="dark_gray">#898F9D</color>
+    <color name="yellow">#FCA311</color>
+    <color name="dongker">#14213D</color>
 </resources>
