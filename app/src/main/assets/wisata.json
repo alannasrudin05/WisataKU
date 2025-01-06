@@ -1,0 +1,339 @@
+{
+  "Galleries": [
+    {
+      "id": 1,
+      "galleryUrls": [
+        "wd1",
+        "wd2",
+        "wd3",
+        "wd4",
+        "wd5",
+        "wd6",
+        "wd7"
+      ]
+    },
+    {
+      "id": 2,
+      "galleryUrls": [
+        "gc1",
+        "gc2",
+        "gc3",
+        "gc4",
+        "gc5",
+        "gc6"
+      ]
+    },
+    {
+      "id": 3,
+      "galleryUrls": [
+        "cpp1",
+        "cpp2",
+        "cpp3",
+        "cpp4",
+        "cpp5",
+        "cpp6",
+        "cpp7",
+        "cpp8",
+        "cpp9"
+      ]
+    },
+    {
+      "id": 4,
+      "galleryUrls": [
+        "tb1.png",
+        "tb2.png",
+        "tb3.png",
+        "tb4.png",
+        "tb5.png",
+        "tb6.png",
+        "tb7.png"
+      ]
+    },
+    {
+      "id": 5,
+      "galleryUrls": [
+        "cb1.png",
+        "cb2.png",
+        "cb3.png"
+
+      ]
+    },
+    {
+      "id": 6,
+      "galleryUrls": [
+        "ts1.png",
+        "ts2.png",
+        "ts3.png",
+        "ts4.png",
+        "ts5.png",
+        "ts6.png"
+
+      ]
+    }
+  ],
+  "Destinations": [
+    {
+      "id": 1,
+      "title": "Wisata Waduk Dharma",
+      "description": "Waduk Darma, Kuningan adalah salah satu destinasi wisata alam paling terkenal di Kabupaten Kuningan, Jawa Barat. Terletak di kawasan pegunungan yang asri, waduk ini menawarkan pemandangan indah dengan hamparan air luas yang dikelilingi perbukitan hijau. Udara segar dan suasana tenang menjadikannya tempat yang ideal untuk bersantai.\n\nWaduk Darma menyediakan berbagai aktivitas menarik bagi pengunjung, seperti naik perahu, memancing, atau sekadar berjalan-jalan menikmati panorama alam. Selain itu, area sekitarnya dilengkapi dengan fasilitas seperti taman rekreasi, area bermain anak, gazebo, dan warung makan yang menawarkan kuliner khas daerah.\n\nSebagai salah satu ikon wisata Kuningan, Waduk Darma juga kerap digunakan untuk acara budaya dan festival lokal. Dengan keindahan alam dan suasana damai, Waduk Darma cocok untuk wisata keluarga, pasangan, atau siapa saja yang ingin melepas penat dari hiruk-pikuk perkotaan.",
+      "picDestination": "wd2",
+      "galleryId": 1,
+      "rating": 4.6,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 2,
+      "title": "Wisata Gunung Ciremai",
+      "description": "Taman Nasional Gunung Ciremai adalah kawasan konservasi alam yang melingkupi Gunung Ciremai, gunung tertinggi di Jawa Barat dengan ketinggian 3.078 meter di atas permukaan laut. Gunung ini menjadi favorit bagi para pendaki yang mencari tantangan dan panorama indah. Sepanjang perjalanan, pengunjung dapat menikmati keanekaragaman flora dan fauna, termasuk bunga edelweiss dan lutung Jawa yang langka.\n\nSelain mendaki, kawasan taman nasional ini menawarkan aktivitas lain seperti birdwatching dan trekking ringan. Jalur pendakian populer seperti Apuy dan Linggarjati membawa pengunjung melewati hutan tropis, sungai kecil, dan pemandangan spektakuler. Terdapat pula area untuk piknik dan edukasi, sehingga cocok untuk keluarga.\n\nTaman Nasional Gunung Ciremai juga berperan penting dalam pelestarian ekosistem. Di sini, Anda bisa belajar tentang konservasi lingkungan dan budaya lokal masyarakat sekitar yang hidup selaras dengan alam. Tempat ini sangat direkomendasikan bagi mereka yang ingin menikmati keindahan alam sekaligus menjaga kelestariannya.",
+      "picDestination": "gc1",
+      "galleryId": 2,
+      "rating": 4.7,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 3,
+      "title": "Wisata Curug Putri, Palutungan",
+      "description": "Palutungan adalah kawasan wisata alam yang terletak di Kuningan, Jawa Barat, yang dikenal sebagai gerbang menuju Curug Putri, salah satu air terjun eksotis di daerah ini. Palutungan dikelilingi oleh hutan pinus yang rimbun dan udara segar khas pegunungan, menjadikannya tempat yang sempurna untuk bersantai atau berwisata bersama keluarga. Kawasan ini juga merupakan lokasi yang populer untuk berkemah, dengan fasilitas yang cukup memadai bagi para pengunjung.\n\nSelain menjadi pintu masuk ke Curug Putri, Palutungan menawarkan pengalaman wisata yang menyeluruh. Di sini, pengunjung dapat menikmati jalur trekking ringan yang menembus keindahan alam, lengkap dengan suara gemericik air sungai kecil dan kicauan burung yang menenangkan. Terdapat banyak spot foto menarik di sepanjang perjalanan, termasuk di area hutan pinus yang sering dijadikan latar belakang foto.\n\nPalutungan dan Curug Putri sering dikunjungi bersama karena lokasinya yang berdekatan dan saling melengkapi. Kombinasi antara pesona air terjun dan suasana hutan pegunungan membuat kawasan ini menjadi salah satu tujuan wisata alam favorit di Kuningan. Cocok bagi siapa saja yang mencari kedamaian dan ingin menjauh dari hiruk pikuk kota.",
+      "picDestination": "cpp1",
+      "galleryId": 3,
+      "rating": 4.7,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 4,
+      "title": "Wisata Talaga Biru Cicerem",
+      "description": "Talaga Biru Cicerem adalah sebuah danau yang terletak di Kuningan, Jawa Barat, dikenal juga dengan nama Situ Cicerem. Danau kecil ini memiliki air yang sangat jernih dengan warna kebiruan yang memukau, dikelilingi oleh pepohonan hijau yang rimbun, menciptakan suasana yang tenang dan damai. Keindahan alam Talaga Biru seringkali menarik perhatian para fotografer dan penggemar media sosial yang ingin mengabadikan keindahan tempat ini.\n\nPengunjung dapat menikmati berbagai aktivitas sederhana namun menyenangkan, seperti memberi makan ikan-ikan besar yang berenang di danau atau menikmati pemandangan alam dengan naik rakit bambu di atas danau. Suasana yang bersih dan terawat menjadikan Talaga Biru Cicerem sebagai destinasi favorit bagi wisata keluarga dan pasangan yang ingin bersantai atau menikmati alam.\n\nSelain keindahan alamnya, Talaga Biru Cicerem juga sering menjadi lokasi foto prewedding dan pembuatan konten kreatif berkat suasananya yang alami dan menenangkan. Tempat ini menawarkan pelarian sempurna dari kesibukan sehari-hari, cocok bagi siapa saja yang ingin menikmati kedamaian dan keindahan alam yang menakjubkan.",
+      "picDestination": "tb1",
+      "galleryId": 4,
+      "rating": 4.7,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 5,
+      "title": "Obyek Wisata Cibulan",
+      "description": "Obyek Wisata Cibulan menawarkan suasana alam yang asri dan sejuk untuk berlibur bersama keluarga. Di sini, Anda dapat berenang di kolam alami yang berair jernih dan dingin, mandi air panas alami, atau berkemah di tengah hutan pinus yang rindang.\n\nKolam renang alami Cibulan merupakan daya tarik utama wisata ini. Kolam ini diairi oleh mata air pegunungan yang sangat jernih dan menyegarkan. Di sini, Anda dapat berenang dan bermain air dengan bebas, atau bersantai di pinggir kolam sambil menikmati pemandangan alam yang indah.\n\nWisata Kuningan ini juga menyediakan fasilitas pemandian air panas alami. Air panas ini dipercaya memiliki khasiat kesehatan untuk mengobati berbagai penyakit.\n\nBagi Anda yang ingin berkemah, tersedia area perkemahan yang luas dan nyaman di tengah hutan pinus. Di sini, Anda dapat menikmati suasana alam yang tenang dan asri, jauh dari hiruk pikuk keramaian.",
+      "picDestination": "cb1",
+      "galleryId": 5,
+      "rating": 4.7,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 6,
+      "title": "Wisata Talaga Surian",
+      "description": "Obyek Wisata Cibulan menawarkan suasana alam yang asri dan sejuk untuk berlibur bersama keluarga. Di sini, Anda dapat berenang di kolam alami yang berair jernih dan dingin, mandi air panas alami, atau berkemah di tengah hutan pinus yang rindang.\n\nKolam renang alami Cibulan merupakan daya tarik utama wisata ini. Kolam ini diairi oleh mata air pegunungan yang sangat jernih dan menyegarkan. Di sini, Anda dapat berenang dan bermain air dengan bebas, atau bersantai di pinggir kolam sambil menikmati pemandangan alam yang indah.\n\nWisata Kuningan ini juga menyediakan fasilitas pemandian air panas alami. Air panas ini dipercaya memiliki khasiat kesehatan untuk mengobati berbagai penyakit.\n\nBagi Anda yang ingin berkemah, tersedia area perkemahan yang luas dan nyaman di tengah hutan pinus. Di sini, Anda dapat menikmati suasana alam yang tenang dan asri, jauh dari hiruk pikuk keramaian.",
+      "picDestination": "ts1",
+      "galleryId": 5,
+      "rating": 4.7,
+      "createdAt": null,
+      "updatedAt": null
+    }
+  ],
+  "Products": [
+    {
+      "id": 100,
+      "title": "Tiket Masuk Waduk Dharma",
+      "price": 15000,
+      "rating": 4.5,
+      "picProduct": "wd7",
+      "destinationId": 1,
+      "galleryId": 1,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 101,
+      "title": "Sewa Perahu Waduk Dharma",
+      "price": 30000,
+      "rating": 4.5,
+      "picProduct": "wd3",
+      "destinationId": 1,
+      "galleryId": 1,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 102,
+      "title": "Fotografer Waduk Dharma",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "wd5",
+      "destinationId": 1,
+      "galleryId": 1,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 103,
+      "title": "Tiket Pendakian Gunung Ciremai",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "gc1",
+      "destinationId": 2,
+      "galleryId": 2,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 104,
+      "title": "Jasa Porter Gunung Ciremai",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "gc2",
+      "destinationId": 2,
+      "galleryId": 2,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 105,
+      "title": "Sewa Tenda Gunung Ciremai",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "gc3",
+      "destinationId": 2,
+      "galleryId": 2,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 106,
+      "title": "Tiket Masuk Curug Putri Palutungan",
+      "price": 15000,
+      "rating": 4.5,
+      "picProduct": "cpp1",
+      "destinationId": 3,
+      "galleryId": 3,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 107,
+      "title": "Fotografer Palutungan",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "cpp2",
+      "destinationId": 3,
+      "galleryId": 3,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 108,
+      "title": "Tiket Masuk Talaga Biru Cicerem",
+      "price": 15000,
+      "rating": 4.5,
+      "picProduct": "tb2",
+      "destinationId": 4,
+      "galleryId": 4,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 109,
+      "title": "Fotografer Talaga Biru",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "tb3",
+      "destinationId": 4,
+      "galleryId": 4,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 110,
+      "title": "Tiket Masuk Cibulan",
+      "price": 15000,
+      "rating": 4.5,
+      "picProduct": "cb1",
+      "destinationId": 5,
+      "galleryId": 5,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 111,
+      "title": "Fotografer Cibulan",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "tb3",
+      "destinationId": 5,
+      "galleryId": 5,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 112,
+      "title": "Tiket Masuk Talaga Surian",
+      "price": 15000,
+      "rating": 4.5,
+      "picProduct": "cb1",
+      "destinationId": 6,
+      "galleryId": 6,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 113,
+      "title": "Sewa Tenda Talaga Surian",
+      "price": 50000,
+      "rating": 4.5,
+      "picProduct": "tb3",
+      "destinationId": 6,
+      "galleryId": 6,
+      "createdAt": null,
+      "updatedAt": null
+    }
+  ],
+  "Carts": [
+    {
+      "id": 1,
+      "destinationId": 1,
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": 2,
+      "destinationId": 2,
+      "createdAt": null,
+      "updatedAt": null
+    }
+  ],
+  "Cart_Products": [
+    {
+      "id": 1,
+      "cartId": 1,
+      "productId": 100,
+      "quantity": 1,
+      "isSelected": false,
+      "createdAt": null,
+      "updatedAt": null
+
+    },
+    {
+      "id": 2,
+      "cartId": 1,
+      "productId": 101,
+      "quantity": 1,
+      "isSelected": false,
+      "createdAt": null,
+      "updatedAt": null
+
+    },
+    {
+      "id": 3,
+      "cartId": 2,
+      "productId": 103,
+      "quantity": 1,
+      "isSelected": false,
+      "createdAt": null,
+      "updatedAt": null
+
+    }
+  ]
+
+}

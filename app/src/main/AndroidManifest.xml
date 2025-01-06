@@ -13,10 +13,35 @@
         android:theme="@style/Theme.WisataKU"
         tools:targetApi="31">
         <activity
-            android:name=".BaseActivity"
+            android:name=".View.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".IntroActivity"
+            android:name=".View.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.StatusActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.ProsesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.PaymentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DetailDestinationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.BaseActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".View.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,14 +50,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ExploreActivity"
+            android:name=".View.ExploreActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".View.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:name=".View.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
