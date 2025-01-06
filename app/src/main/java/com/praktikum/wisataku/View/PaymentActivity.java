@@ -100,13 +100,13 @@ public class PaymentActivity extends AppCompatActivity {
             }
         });
 
-        RadioGroup radioGroup = findViewById(R.id.pembayaranRadGroup);
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-//                belum
-            }
-        });
+//        RadioGroup radioGroup = findViewById(R.id.pembayaranRadGroup);
+//        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(RadioGroup group, int checkedId) {
+////                belum
+//            }
+//        });
 
 
 

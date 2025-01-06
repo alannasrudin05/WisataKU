@@ -83,7 +83,7 @@
                     />
             </LinearLayout>
 
-            <RadioGroup
+            <worker8.com.github.radiogroupplus.RadioGroupPlus
                 android:id="@+id/pembayaranRadGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -305,7 +305,7 @@
                         android:layout_height="wrap_content" />
 
                 </LinearLayout>
-            </RadioGroup>
+            </worker8.com.github.radiogroupplus.RadioGroupPlus>
 
         </LinearLayout>
     </ScrollView>
@@ -315,17 +315,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         android:background="@drawable/stroke_dongker_no_rounded">
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="36dp"
-            android:text="Semua"
-            android:textColor="@color/dark_gray"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/totalPriceTxt"

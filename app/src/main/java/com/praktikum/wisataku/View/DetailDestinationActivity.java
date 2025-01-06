@@ -195,7 +195,7 @@ public class DetailDestinationActivity extends AppCompatActivity {
         } else if (selectedMode == R.id.cart) {
             startActivity(new Intent(DetailDestinationActivity.this, CartActivity.class));
         } else if (selectedMode == R.id.notification) {
-            startActivity(new Intent(DetailDestinationActivity.this, CartActivity.class));
+            startActivity(new Intent(DetailDestinationActivity.this, NotificationActivity.class));
         } else if (selectedMode == R.id.profile) {
             startActivity(new Intent(DetailDestinationActivity.this, ProfileActivity.class));
         }
