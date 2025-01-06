@@ -164,6 +164,7 @@ public class MainActivity extends BaseActivity implements TextWatcher {
         searchAC.addTextChangedListener(this);
         searchAC.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, saranDestinasi));
 
+//        String username = getIntent().getIntExtra("username", "nama");
 
         int selectedItem = getIntent().getIntExtra("selected_item", R.id.explore);
         bottomMenu.setItemSelected(selectedItem, true);
@@ -192,7 +193,7 @@ public class MainActivity extends BaseActivity implements TextWatcher {
         } else if (selectedMode == R.id.cart) {
             startActivity(new Intent(MainActivity.this, CartActivity.class));
         } else if (selectedMode == R.id.notification) {
-            startActivity(new Intent(MainActivity.this, CartActivity.class));
+            startActivity(new Intent(MainActivity.this, NotificationActivity.class));
         } else if (selectedMode == R.id.profile) {
             startActivity(new Intent(MainActivity.this, ProfileActivity.class));
         }

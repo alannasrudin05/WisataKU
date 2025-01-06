@@ -54,7 +54,7 @@ dependencies {
 
     implementation(libs.glide)
     implementation (libs.gson)
-    implementation(libs.dotsindicator)
+//    implementation(libs.dotsindicator)
 //    implementation libs.firebase.bom // di hapus
 //    implementation libs.firebase.database.ktx //di hapus
 
@@ -65,5 +65,8 @@ dependencies {
     implementation libs.lifecycle.viewmodel
     implementation libs.chip.navigation.bar
 //    implementation 'com.github.worker8:radiogroupplus:v1.0.1'
+    implementation('com.github.worker8:RadioGroupPlus:1.0.1') {
+        transitive = false;
+    }
 
 }
