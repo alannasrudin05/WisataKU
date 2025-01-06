@@ -2,5 +2,6 @@
     <string name="app_name">WisataKU</string>
     <string name="contoh"><font color="#000000"> Your Cravings with Our</font>\n<font color="#854811">Fresh Cakes, Donuts</font>\n<font color="#000000">and </font><font color="#854811">Pastries</font></string>
     <string name="wisataku"><font color="#FFFFFFFF">Wisata</font><font color="#FCA311">KU</font></string>
+    <string name="wisataku_light"><font color="#14213D">Wisata</font><font color="#FCA311">KU</font></string>
     <string name="intro_signup"><font color="#FFFFFFFF">Belum punya akun?</font><font color="#FCA311"><b>Sign Up</b></font></string>
 </resources>
