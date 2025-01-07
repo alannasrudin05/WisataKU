@@ -7,18 +7,24 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.lifecycle.LifecycleOwner;
+import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.request.RequestOptions;
+import com.praktikum.wisataku.Model.CartModel;
+import com.praktikum.wisataku.Model.CartProduct;
 import com.praktikum.wisataku.Model.DestinationModel;
 import com.praktikum.wisataku.R;
 import com.praktikum.wisataku.View.DetailDestinationActivity;
 import com.praktikum.wisataku.Model.ProductModel;
+import com.praktikum.wisataku.databinding.CustomDialogBoxBinding;
 import com.praktikum.wisataku.databinding.ViewholderPopularEventBinding;
 
 import java.text.DecimalFormat;
@@ -104,13 +110,22 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             }
         });
 
-        holder.binding.btnAddToCart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                dialog.show();
-//                Log.d("AddToCart", "Produk ditambahkan ke keranjang: " + item.getTitle());
+        holder.binding.btnAddToCart.setOnClickListener(v -> {
+            CustomDialogBoxBinding customDialogBoxBinding = CustomDialogBoxBinding.inflate(
+                    LayoutInflater.from(context), null, false
+            );
+            Dialog dialog = new Dialog(context);
+            dialog.setContentView(customDialogBoxBinding.getRoot());
+            dialog.getWindow().setLayout(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            dialog.setCancelable(false);
 
-            }
+            customDialogBoxBinding.tambahDialogBtn.setOnClickListener(view -> {
+                Toast.makeText(context, "Produk berhasil ditambahkan ke keranjang!", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+
+            });
+
+            dialog.show();
         });
     }
 
