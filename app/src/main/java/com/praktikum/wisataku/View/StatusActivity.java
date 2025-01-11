@@ -39,12 +39,12 @@ public class StatusActivity extends AppCompatActivity {
         });
 
         bottomMenu.setItemSelected(R.id.cart, true);
-//        int selectedItem = getIntent().getIntExtra("selected_item", R.id.cart);
-//            bottomMenu.setItemSelected(selectedItem, true);
-//            bottomMenu.setOnItemSelectedListener(item -> {
-//            setMode(item);
-//
-//        });
+        int selectedItem = getIntent().getIntExtra("selected_item", R.id.cart);
+            bottomMenu.setItemSelected(selectedItem, true);
+            bottomMenu.setOnItemSelectedListener(item -> {
+            setMode(item);
+
+        });
         Window window = getWindow();
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);

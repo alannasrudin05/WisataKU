@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819831141325",
+    "project_id": "wisataku-49144",
+    "storage_bucket": "wisataku-49144.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819831141325:android:65c90cf540743a81704a84",
+        "android_client_info": {
+          "package_name": "com.praktikum.wisataku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoRzZPL9CRi9r_DD72IYQyCwDD0wEkC80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
