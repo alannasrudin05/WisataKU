@@ -76,7 +76,7 @@ public class MainActivity extends BaseActivity implements TextWatcher {
         ).get(MainViewModel.class);
 
         // Load JSON dan simpan ke database
-//        mainViewModel.loadDataAndInsert();
+        mainViewModel.loadDataAndInsert();
 
 //        clear db
 //        WisataDatabase db = WisataDatabase.getInstance(this);
